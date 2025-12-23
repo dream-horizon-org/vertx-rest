@@ -1,7 +1,7 @@
 # vertx-rest
-[![Continuous Integration](https://github.com/dream11/vertx-rest/actions/workflows/ci.yml/badge.svg)](https://github.com/dream11/vertx-rest/actions/workflows/ci.yml)
-[![Code Coverage](https://codecov.io/gh/dream11/vertx-rest/branch/master/graph/badge.svg)](https://codecov.io/gh/dream11/vertx-rest)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://raw.githubusercontent.com/dream11/vertx-rest/master/LICENSE)
+[![Continuous Integration](https://github.com/dream-horizon-org/vertx-rest/actions/workflows/ci.yml/badge.svg)](https://github.com/dream-horizon-org/vertx-rest/actions/workflows/ci.yml)
+[![Code Coverage](https://codecov.io/gh/dream-horizon-org/vertx-rest/branch/master/graph/badge.svg)](https://codecov.io/gh/dream-horizon-org/vertx-rest)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://raw.githubusercontent.com/dream-horizon-org/vertx-rest/master/LICENSE)
 
 - [Overview](#overview)
 - [Setup](#setup)
@@ -45,7 +45,7 @@ Add the following dependency to the `dependencies` section of your build descrip
   }
 ```
 
-Note: Replace `x.y.z` above with one of the [released versions](https://github.com/dream11/vertx-rest/releases)
+Note: Replace `x.y.z` above with one of the [released versions](https://github.com/dream-horizon-org/vertx-rest/releases)
 
 ## Usage
 
