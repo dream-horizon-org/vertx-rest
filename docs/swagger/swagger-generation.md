@@ -81,7 +81,7 @@ Note: This will leave a zip file containing the swagger-ui resource files at `${
 
   <plugin>
     <groupId>io.swagger.core.v3</groupId>
-    <artifactId>swagger-maven-plugin</artifactId>
+    <artifactId>swagger-maven-plugin-jakarta</artifactId>
     <version>${maven.swagger.plugin.version}</version>
     <configuration>
       <outputFileName>${swagger.outputFileName}</outputFileName>
