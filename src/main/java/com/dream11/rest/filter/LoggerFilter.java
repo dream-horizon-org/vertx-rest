@@ -8,7 +8,6 @@ import jakarta.ws.rs.ext.Provider;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.io.IOUtils;
 
 @Slf4j
 @Provider
@@ -42,7 +41,7 @@ public class LoggerFilter extends RequestResponseFilter {
     log.debug("STATED REQUEST : {} {}", containerRequestContext.getMethod(), containerRequestContext.getUriInfo().getPath());
     String body = "{}";
     if (containerRequestContext.hasEntity() && containerRequestContext.getEntityStream() != null) {
-      body = IOUtils.toString(containerRequestContext.getEntityStream(), StandardCharsets.UTF_8).replace("\n", " ");
+      body = new String(containerRequestContext.getEntityStream().readAllBytes(), StandardCharsets.UTF_8).replace("\n", " ");
       containerRequestContext.getEntityStream().reset();
     }
     log.debug("Path: {} {}  Request: Body : {}, Headers : {}, PathParams : {}, QueryParams : {}", containerRequestContext.getMethod(),
