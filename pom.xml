@@ -66,7 +66,6 @@
     <guice.version>5.1.0</guice.version>
     <slf4j.version>2.0.5</slf4j.version>
     <logback.version>1.4.12</logback.version>
-    <commons-io.version>2.11.0</commons-io.version>
     <checkstyle.version>8.32</checkstyle.version>
 
     <!--  Tests  <-->
@@ -151,12 +150,6 @@
       <groupId>commons-validator</groupId>
       <artifactId>commons-validator</artifactId>
       <version>${commons-validator.version}</version>
-    </dependency>
-
-    <dependency>
-      <groupId>commons-io</groupId>
-      <artifactId>commons-io</artifactId>
-      <version>${commons-io.version}</version>
     </dependency>
 
     <!--    RestEasy  -->
